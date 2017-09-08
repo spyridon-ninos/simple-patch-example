@@ -34,8 +34,8 @@ public class Endpoint {
 		return new PersonResponse(personService.getPersonMap());
 	}
 
-	// if we had a PUT method, we would call the replacePerson method from
-	// the personService
+	// if we had a PUT method, we would create a replacePerson method in
+	// the personService to call
 	@PatchMapping(value = "/{id}", consumes = MediaType.APPLICATION_JSON_UTF8_VALUE)
 	public PersonResponse updatePerson(
 		@PathVariable("id") Long id,

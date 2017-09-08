@@ -29,7 +29,7 @@ which fields are present in the json body and only change those to
 the target model. This solution is implemented in this example.
 
 ### Usage
-There are two points:
+There are two endpoints:
 
 * GET / : this returns a dummy list with a single person
 * PATCH /1 : sending a json of the following format:
