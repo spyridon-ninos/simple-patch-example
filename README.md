@@ -2,7 +2,7 @@
 A simple json web service that demonstrates the use of the patch method to update the model
 
 ### Concept
-The HTTP PATCH method can be used either with the json patch [RFC 6902](git@github.com:spyridon-ninos/simple-patch-example.git)
+The HTTP PATCH method can be used either with the json patch [RFC 6902](https://tools.ietf.org/html/rfc6902)
 or with the json patch-merge [RFC 7386](https://tools.ietf.org/html/rfc7386).
 
 The biggest problem with those two formats is that they make it very easy
